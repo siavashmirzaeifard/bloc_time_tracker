@@ -1,0 +1,40 @@
+name: time_tracker_app
+description: A sample Flutter project for Aidhere.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+  http: ^0.13.4
+
+  flutter_svg: ^1.1.1+1
+  google_fonts: ^3.0.1
+  bloc: ^8.0.3
+  flutter_bloc: ^8.0.1
+  equatable: ^2.0.3
+  lottie: ^1.3.0
+  path_provider: ^2.0.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  
+  bloc_test: ^9.0.3
+  flutter_native_splash: ^2.2.5
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/loading.json
+
+flutter_native_splash:
+  color: "#FF5C7C"
+  image: assets/images/favicon-32x32.png
